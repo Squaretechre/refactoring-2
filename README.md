@@ -1,5 +1,5 @@
-# Refactoring 1
+# Refactoring 2
 
 Example code for weekly refactoring sessions.
 
-Slides: https://bit.ly/3iyiJk3
+Slides: https://bit.ly/39xupAQ
