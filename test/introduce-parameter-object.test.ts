@@ -1,7 +1,7 @@
-import { OperatingPlan, readingsOutsideRange, Station } from '../src/introduce-parameter-object'
+import { readingsOutsideRange, OperatingPlan, Station } from '../src/introduce-parameter-object'
 
 describe('introduce parameter object', () => {
-  it('calculates the circumference of a circle given its radius', () => {
+  it('filters out readings that fall outside of a given range', () => {
     const operatingPlan: OperatingPlan = {
       temperatureFloor: 40,
       temperatureCeiling: 52,
