@@ -3,13 +3,7 @@ module.exports = {
 
   plugins: ['jest', 'unicorn'],
 
-  extends: [
-    'airbnb',
-    'plugin:jest/recommended',
-    'plugin:unicorn/recommended',
-    'prettier',
-    'prettier/react',
-  ],
+  extends: ['airbnb-base', 'plugin:jest/recommended', 'plugin:unicorn/recommended', 'prettier'],
 
   env: {
     node: true,
