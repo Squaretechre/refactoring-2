@@ -22,12 +22,7 @@ Slides: https://bit.ly/39xupAQ
 ```ts
     const range = new NumberRange(operatingPlan.temperatureFloor, operatingPlan.temperatureCeiling)
 
-    const alerts = readingsOutsideRange(
-        station,
-        operatingPlan.temperatureFloor,
-        operatingPlan.temperatureCeiling,
-        range
-    )
+    const alerts = readingsOutsideRange(station, operatingPlan.temperatureFloor, operatingPlan.temperatureCeiling, range)
 ```
 
 3. Redirect usages of `min` and `max` to `range.min` and `range.max` in `readingsOutsideRange`:
