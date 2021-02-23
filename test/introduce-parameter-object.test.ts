@@ -1,4 +1,4 @@
-import { readingsOutsideRange, OperatingPlan, Station } from '../src/introduce-parameter-object'
+import { OperatingPlan, readingsOutsideRange, Station } from '../src/introduce-parameter-object'
 
 describe('introduce parameter object', () => {
   it('filters out readings that fall outside of a given range', () => {

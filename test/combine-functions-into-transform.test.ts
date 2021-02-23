@@ -1,6 +1,6 @@
-import { client1, client2, client3 } from '../src/combine-functions-into-class'
+import { client1, client2, client3 } from '../src/combine-functions-into-transform'
 
-describe('combine functions into class', () => {
+describe('combine functions into transform', () => {
   describe('client 1', () => {
     it('calculates the base charge for a tea meter reading', () => {
       expect(client1()).toEqual(15)
