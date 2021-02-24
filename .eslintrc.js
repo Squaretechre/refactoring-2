@@ -1,7 +1,7 @@
 module.exports = {
   root: true,
 
-  plugins: ['jest', 'unicorn'],
+  plugins: ['jest'],
 
   extends: ['airbnb-base', 'plugin:jest/recommended', 'prettier'],
 
