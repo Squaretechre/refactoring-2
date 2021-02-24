@@ -4,6 +4,12 @@ Example code for weekly refactoring sessions.
 
 Slides: https://bit.ly/39xupAQ
 
+## Notes
+
+- Before doing the refactorings try to `clear the decks` and see how much you can improve the code only by renaming things.
+- In the `Introduce Parameter Object` example, `doesNotContain` is a stylistic choice, feel free to extract `contains` as per the book.
+    - Pick one style and stick with it, either verbose names or using `!contains`, remember `when in rome`.
+
 ## Introduce Parameter Object
 
 1. Create NumberRange class, move to `number-range.ts`:
@@ -11,8 +17,8 @@ Slides: https://bit.ly/39xupAQ
 ```ts
   class NumberRange {
     constructor(
-      readonly min,
-      readonly max,
+      readonly min: number,
+      readonly max: number,
     ){}
   } 
 ```
