@@ -7,8 +7,8 @@ import {
 } from '../../src/bank-account/bank-account-service'
 
 describe('bank account service', () => {
-  describe('getting the current account balance', () => {
-    it('gets the current balance of the account', () => {
+  describe('account balance', () => {
+    it('calculates the current balance of the account', () => {
       const now: Date = new Date()
       const yesterday: Date = new Date(now)
       const dayBeforeYesterday: Date = new Date(now)
